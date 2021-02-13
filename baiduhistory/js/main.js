@@ -29,7 +29,7 @@ function history_get_data(){
         getDate = String(getDate);
     }
     let getMonthDate = "S" + getMonth + getDate;
-    return ["/baiduhistory/json/" + getMonth + ".json",getMonthDate]
+    return ["https://cdn.jsdelivr.net/gh/Zfour/Butterfly-card-history@latest/baiduhistory/json/" + getMonth + ".json",getMonthDate]
 }
 let history_data = history_get_data()
 fetch(history_data[0]).then(data=>data.json()).then(data=>{
