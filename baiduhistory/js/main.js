@@ -62,7 +62,7 @@ fetch(history_data[0]).then(data=>data.json()).then(data=>{
 
     });
 
-    let history_comtainer = document.getElementById('#history-container');
+    let history_comtainer = document.getElementById('history-container');
     comtainer.onmouseenter = function () {
         swiper.autoplay.stop();
     };
