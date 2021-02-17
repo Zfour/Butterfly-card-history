@@ -63,11 +63,11 @@ fetch(history_data[0]).then(data=>data.json()).then(data=>{
     });
 
     let history_comtainer = document.getElementById('history-container');
-    comtainer.onmouseenter = function () {
-        swiper.autoplay.stop();
+    history_comtainer.onmouseenter = function () {
+        swiper_history.autoplay.stop();
     };
-    comtainer.onmouseleave = function () {
-        swiper.autoplay.start();
+    history_comtainer.onmouseleave = function () {
+        swiper_history.autoplay.start();
     }
 })
 
