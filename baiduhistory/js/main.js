@@ -1,3 +1,4 @@
+if(document.getElementById('history-container'){
 function append(parent, text) {
     if (typeof text === 'string') {
         var temp = document.createElement('div');
@@ -69,7 +70,7 @@ fetch(history_data[0]).then(data=>data.json()).then(data=>{
     history_comtainer.onmouseleave = function () {
         swiper_history.autoplay.start();
     }
-})
+})}
 
 
 
