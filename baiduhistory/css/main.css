@@ -6,7 +6,7 @@
   flex-direction:column;
   align-items: flex-start;
 }
-.blog-slider__pagination{
+#history-baidu > .blog-slider__pagination{
   display:none
 }
 .history_slide_time{
