@@ -1,4 +1,4 @@
-if(document.getElementById('history-container'){
+if(document.getElementById('history-container')){
 function append(parent, text) {
     if (typeof text === 'string') {
         var temp = document.createElement('div');
